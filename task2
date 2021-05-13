@@ -1,0 +1,13 @@
+input_string=input('enter elements of list separated by space')
+print('\n')
+mylist=input_string.split()
+print('list:',mylist)
+newList=[]
+
+for i in range(len(mylist)):
+    mylist[i]=int(mylist[i])
+
+n=len(mylist)
+for i in range(n):
+    if mylist[i]>0: 
+       print(mylist[i]) 
